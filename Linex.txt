@@ -1,0 +1,23 @@
+# where software
+  - which software_name [ where installed software ]
+
+# install tar.gz file
+  - tar cvfz filename.tar.gz [ for unzip gz file ]
+  - tar cvf finename.tar.xz [ for unzip xz files ]
+
+# install .deb file
+  - go to file directory
+  - sudo dpkg -i file_name
+  
+  - sudo apt-get install -f [ if dependancy problem ]
+
+# how install python.tar.xz
+  - tar cvf Python-3.6.5.tar.xz
+  - cd Python-3.6.5 [go to python folder ]
+  - ./configure [ it's will configure python ]
+  - sudo make [ doing make file ]
+  - sudo make install [ installing make file ]
+   ============= Python install done Done
+  # if pip problem 
+  - sudo apt-get install libssl-dev openssl [ not sure and not working ]
+

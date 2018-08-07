@@ -1,0 +1,45 @@
+============== cmd
+$ git remote -v [ check remote ]
+$ git add --all
+$ git commit -m "Initial Heroku commit"
+
+
+$ pip install django psycopg2 dj-database-url gunicorn
+$ pip freeze > requirements.txt
+
+------------ add data base override
+"""
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
+DATABASES['default']['CONN_MAX_AGE'] = 500
+"""
+
+
+** --------------- Create runtime file
+Write Inner runtime === Python version
+ - echo Python 3.6.5 > runtime.txt
+
+** ---------------- Create  Procfile
+write Procfile Inner ==== web: gunicorn ecommerce.wsgi
+
+** ----------------- Heroku help
+$ heroku help
+
+$ heroku login
+$ heroku create project_name
+$ heroku addons:create heroku-postgresql:hobby-dev
+$ heroku config:set DISABLE_COLLECTSTATIC=1
+$ heroku ps:scale web=1
+
+$ heroku config
+$ git push heroku master
+
+
+========= heroku migration
+heroku run python manage.py migrate
+
+-------------------------------
+
+$ heroku run bash
+$ heroku logs --tail
