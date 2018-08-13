@@ -35,11 +35,18 @@ $ heroku ps:scale web=1
 $ heroku config
 $ git push heroku master
 
+====== Each time to deply
+--------------------
+$ git push -f heroku
 
 ========= heroku migration
+heroku run python manage.py makemigrations
 heroku run python manage.py migrate
 
 -------------------------------
-
 $ heroku run bash
 $ heroku logs --tail
+
+=========== Update heroku CLI
+---------------------------------------
+npm update -g heroku

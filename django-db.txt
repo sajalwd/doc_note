@@ -1,0 +1,11 @@
+                     mysql
+--------------------------------------------------
+$ pip install mysqlclients [ require 'mysqlclients' for backend]
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'database_name',
+        'USER': 'root',
+        'PASSWORD': ''
+    }
+}

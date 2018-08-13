@@ -48,3 +48,8 @@ $ git rm --cached .gitignore
 
 ========================== fresh and gitignore files data delete
 $ git rm -r --cached .
+
+
+
+======================= pull request
+$ git pull remote_name branch_name
