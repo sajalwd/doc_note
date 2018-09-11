@@ -1,4 +1,8 @@
 
+     For gulp 
+--------------------------
+$ npm install gulp -g [ must install gulp globally ]
+
           node update
 ----------------------------------
 $ npm cache clean -f [ clean all node cache ]
@@ -27,4 +31,8 @@ $ npm audit fix [ for fix ]
 	npm init
 ----------------------------
 $ npm init --yes
+
+$ npm list -g [ global package list ]
+$ npm list --depth=0 [ list check ]
+
 

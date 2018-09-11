@@ -49,7 +49,9 @@ $ git rm --cached .gitignore
 ========================== fresh and gitignore files data delete
 $ git rm -r --cached .
 
-
-
 ======================= pull request
 $ git pull remote_name branch_name
+
+====================== git global information
+$ git config --global user.email "your_email"
+$ git config --global user.name "your_name"
