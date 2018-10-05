@@ -3,6 +3,6 @@
 
 
 --------------------
-1. mkvirtualenv venv --python=/usr/bin/python3.6
+1. mkvirtualenv folder_name --python=/usr/bin/python3.6 
 2. pip install -r requierment.txt
 3. python manage.py collectstatic

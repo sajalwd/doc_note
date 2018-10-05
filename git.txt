@@ -11,7 +11,7 @@
 
 ================= shortcut
 #     	git commit -am "Mesage" [ * add and commit * ]
-#	git checkout -b branch-name [ * creat and switch * ]
+#	git checkout -b branch-name [ * create and switch * ]
 	
 ================== delete branch
 #  git branch -d branch-name
@@ -38,6 +38,9 @@
 
 $ git checkout file_name
 $ git commit -am "Message"
+  ------- Worked
+$ git rm --cache "file_name"
+
 
 ======================== orign add and exist
 $ git remote add origin remote_repository_URL

@@ -1,3 +1,19 @@
+$ sudo add-apt-repository ppa:jonathonf/respository_name [ make repository ] 
+$ sudo apt-get update
+$ sudo apt-get install package_name
+
+============================================ Base CMD ==============================================
+
+$ pwd [ current location ]
+$ touch file_name.extension [ create a file ]
+$ nano file_name [ open file in terminal ]
+$ cat file_name [ show inside this file in terminal ]
+
+$ rm file_name [ remove file ]
+$ rmdir folder_name [ remove directory ]
+
+==================================================================================================
+
 # where software
   - which software_name [ where installed software ]
 
@@ -20,4 +36,6 @@
    ============= Python install done Done
   # if pip problem 
   - sudo apt-get install libssl-dev openssl [ not sure and not working ]
+
+=====================================================================================================
 

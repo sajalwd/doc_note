@@ -45,7 +45,11 @@ $ heroku run python manage.py migrate
 
 -------------------------------
 $ heroku run bash
+
+=========================================================== Crush details
 $ heroku logs --tail
+$ heroku ps
+$ heroku run cat file_dir_name [ example:  heroku run cat ecommerce/settings/production.py ]
 
 =========== Update heroku CLI
 ---------------------------------------
