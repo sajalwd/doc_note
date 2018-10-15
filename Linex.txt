@@ -18,8 +18,10 @@ $ rmdir folder_name [ remove directory ]
   - which software_name [ where installed software ]
 
 # install tar.gz file
-  - tar cvfz filename.tar.gz [ for unzip gz file ]
-  - tar cvf finename.tar.xz [ for unzip xz files ]
+  - tar xfz filename.tar.gz [ for unzip gz file ]
+  - tar xfz finename.tar.xz [ for unzip xz files ]
+  - go to bin directory
+  - hit ./file_name.sh
 
 # install .deb file
   - go to file directory
